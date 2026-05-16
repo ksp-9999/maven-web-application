@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.234.20.77:9000/</sonar.host.url>
-		<sonar.login>sqa_186c3b3ca1f8ca8f9f5afdbcbf1556999e3c94c4</sonar.login>
+		<sonar.host.url>http://43.205.96.203:9000/</sonar.host.url>
+		<sonar.login>sqa_ebd008e89b240ea6585f463f301112c639e9ad5a</sonar.login>
 		<!--<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Jenkins demo releases repository</name>
-	      <url>http://13.206.100.163:8081/repository/jenkinsdemo-releases/</url>
+	      <url>http://13.127.37.212:8081/repository/mithun-releases/url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Jenkins demo snapshot repository </name>
-	      <url>http://13.206.100.163:8081/repository/jenkinsdemo-snapshot/</url>
+	      <url>http://13.127.37.212:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
